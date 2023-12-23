@@ -1,0 +1,122 @@
+        /* Estilos personalizados para el body */
+        body {
+            font-family: Arial, sans-serif;
+            font-family: 'Lexend Deca', sans-serif;
+            background-color: rgba(3, 4, 46, 0.7);   
+        }
+
+
+        /* Estilos personalizados para la barra de  */
+        .navbar {
+            background-color: #928c8c;
+        }
+
+        .navbar-brand {
+            color: black;
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .nav-link:hover {
+            color: red;
+        }
+
+
+
+        /* Estilo Inicio */
+        .inicio {
+            background-color: #1c108d;     
+        }
+
+
+
+        /* Estilo Nosotros */
+        #nosotros {
+            background-color: rgb(224, 224, 224);     
+        }
+
+
+
+        .recuadro {
+            background-color: blue;
+            color: white;
+            opacity: 0.5;
+            display: inline-block; 
+            padding: 10px; 
+         /*   border-radius: 10px;   */
+        }
+
+        
+        .recuadro2 {
+            background-color: rgb(108, 128, 151);
+            color: white;
+            opacity: 0.70;
+            display: inline;
+            padding-top: 12px;
+            text-align: center;
+         /*   border-radius: 10px;   */
+        }
+
+        /* Estilo Servicios */
+        #servicios {
+            background-color: rgba(0, 0, 0, 0.7);     
+            background-image: url('../img/t.jpg'); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+      /* Estilo Contacto */
+        #contacto {
+            background-color: rgb(0, 0, 0);     
+            background-image: url('../img/autoNegro.jpg'); 
+            background-repeat: no-repeat;
+            color: white;
+            margin-top: 50px;
+        }  
+
+
+        /* Estilos personalizados para el botón de WhatsApp */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+        }
+
+        .whatsapp-btn img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .whatsapp-btn img:hover {
+            transform: scale(1.1);
+        }
+
+
+
+        .swiper {
+            width: 600px;
+            height: 300px;
+          }
+
+
+              /* Estilos para igualar la altura de los recuadros */
+    .recuadro2 {
+        height: 100%; /* Ajustar la altura de los recuadros */
+        display: flex;
+        flex-direction: column;
+
+        
+      }
+  
+      /* Estilos para el fondo y la apariencia */
+      #icon-grid {
+        background-color: #000;
+      }
